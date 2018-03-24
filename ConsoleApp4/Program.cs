@@ -106,7 +106,7 @@ namespace ConsoleApplication
             {
                 bigmassiv[i] = random.Next(1, 100002);
             }
-            int index = random.Next(1, 100002);
+            int index = random.Next(1, 100000);
             Array.Sort(bigmassiv);
             int number = bigmassiv[index];
             if (bigmassiv[BinarySearch(bigmassiv, number)] != number)
